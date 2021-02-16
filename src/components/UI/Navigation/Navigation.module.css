@@ -1,0 +1,32 @@
+.navigation {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background: #2ddf5c;
+}
+
+.navigation__items {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+  display: flex !important;
+}
+
+.navigation__item {
+  margin: 0 1rem !important;
+}
+
+.link {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.link:hover {
+  color: #ff1b68;
+  border-bottom: 1px solid #ff1b68;
+}

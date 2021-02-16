@@ -1,0 +1,22 @@
+.image-container {
+  margin: 1rem;
+  display: inline-block;
+  position: relative;
+}
+
+.image-container img {
+  width: 350px;
+  height: 300px;
+}
+
+.cart-icon {
+  position: absolute;
+  top: 48%;
+  left: 48%;
+}
+
+.heart-icon {
+  position: absolute;
+  top: 48%;
+  left: 40%;
+}
