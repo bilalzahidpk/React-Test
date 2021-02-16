@@ -49,10 +49,4 @@ const mapDispatchToProps = dispatch => {
     }
 }
 
-const mapStateToProps = state => {
-    return {
-        images: state.image.images
-    }
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(Image)
+export default connect(null, mapDispatchToProps)(Image)
